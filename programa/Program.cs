@@ -14,11 +14,11 @@ namespace github
             Console.WriteLine("Enter a value for b: ");
             b = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine($"Adding {a} - {b} equals {AddNumbers(a, b)}")
+            Console.WriteLine($"Adding {a} * {b} equals {AddNumbers(a, b)}")
         }
         public static int AddNumbers( int a, int b)
         {
-            return a - b;
+            return a * b;
         }
     }
 }
